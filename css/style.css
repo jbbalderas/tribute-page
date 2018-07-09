@@ -1,5 +1,6 @@
 body{
-	 font-family: 'Montserrat', sans-serif; 
+	font-family: 'Montserrat', sans-serif; 
+	text-align: center;
 }
 
 .wrapper{
@@ -11,30 +12,44 @@ body{
 #main {
 	background: #ededee;
 	overflow:auto;
+	padding: 10px;
 }
 
 #title{
-	background: orange;
-	text-align: center;
+	/*background: orange;*/
 	margin-top: 20px;
 }
 
 #title p{
 	margin: 0;
+	line-height: 1.6;
 }
 
 #img-div{
-	background: yellow;
+	background: white;
+	margin-top: 1.5vw;
+	padding: 20px;
+}
+
+img{
+	max-width: 100%;
+	display: block;
+	height: auto;
+}
+
+img.center{
+	margin: 0 auto;
 }
 
 #img-caption{
-	background: green;
+	/*background: green;*/
+	padding-top: 10px;
 }
 
 #tribute-info{
-	background: blue;
+	/*background: blue;*/
 }
 
 #tribute-link{
-	background: violet;
+	/*background: violet;*/
 }

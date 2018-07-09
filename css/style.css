@@ -1,5 +1,40 @@
+body{
+	 font-family: 'Montserrat', sans-serif; 
+}
+
 .wrapper{
-	width: 100%
-	max-width: 1100px
-	margin: 0 auto
+	width: 100%;
+	max-width: 1440px;
+	margin: 0 auto;
+}
+
+#main {
+	background: #ededee;
+	overflow:auto;
+}
+
+#title{
+	background: orange;
+	text-align: center;
+	margin-top: 20px;
+}
+
+#title p{
+	margin: 0;
+}
+
+#img-div{
+	background: yellow;
+}
+
+#img-caption{
+	background: green;
+}
+
+#tribute-info{
+	background: blue;
+}
+
+#tribute-link{
+	background: violet;
 }

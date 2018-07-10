@@ -32,13 +32,17 @@ body{
 	padding: 20px;
 }
 
+#img-div a{
+	display: inline-block;
+}
+
 img{
 	max-width: 100%;
 	display: block;
 	height: auto;
 }
 
-img.center{
+.center{
 	margin: 0 auto;
 }
 
@@ -48,9 +52,30 @@ img.center{
 }
 
 #tribute-info{
-	/*background: blue;*/
+	display: flex;
 }
 
 #tribute-link{
-	/*background: violet;*/
+}
+
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+.row:nth-of-type(1) .quote-container{
+	flex: 3;
+	width: 900px;
+	min-width: 260px;
+}
+.pic-div{
+	flex: 1;
+	display: flex;
+	min-width: 170px;
+	vertical-align: middle;
+}
+.pic-div img{
+	height: 100%;
+	width: 100%;
+	object-fit: contain;
+	vertical-align: middle;
 }

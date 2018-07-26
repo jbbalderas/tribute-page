@@ -1,5 +1,10 @@
+*, *:before, *:after {
+	border: .018px dashed green;
+	box-sizing: border-box;	
+}
+
 body{
-	font-family: 'Montserrat', sans-serif; 
+	/*font-family: 'Montserrat', sans-serif; */
 	text-align: center;
 	line-height: 1.4;
 }
@@ -58,24 +63,74 @@ img{
 #tribute-link{
 }
 
-.row{
+
+/*START row-1 */
+#row-1{
 	display: flex;
 	flex-wrap: wrap;
 }
-.row:nth-of-type(1) .quote-container{
-	flex: 3;
+
+blockquote{
+	text-align: left;
+}
+
+#row-1 .quote-container{
+	flex: 2;
 	width: 900px;
 	min-width: 260px;
 }
-.pic-div{
+
+#row-1 .pic-div{
 	flex: 1;
 	display: flex;
 	min-width: 170px;
 	vertical-align: middle;
 }
-.pic-div img{
+
+#row-1 .pic-div img{
 	height: 100%;
 	width: 100%;
 	object-fit: contain;
 	vertical-align: middle;
 }
+
+
+/*START row-2 */
+#row-2{
+	/*display: block;*/
+	border: 2px dashed red;
+	height: 330px;
+	/*vertical-align: top;*/
+	line-height: 330px;	
+	/*text-align: center;*/
+}
+/*
+#row-2:before{
+	content: "";
+	display: inline-block;
+	vertical-align: middle;
+	height: 100%;
+}*/
+
+/*#row-2 *{
+	border: 1px solid hotpink;	
+}
+*/
+
+#row-2 .quote-container{
+	display: inline-block;
+	/*vertical-align: middle;*/
+	vertical-align: top;
+	width: 33.3%;
+	/*height: 300px;*/
+
+	line-height: normal;
+}
+
+
+#row-2 .pic-div{
+	display: inline-block;
+
+	width: 33.3%;
+}
+

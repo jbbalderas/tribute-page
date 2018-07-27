@@ -7,6 +7,7 @@
 	outline: 1px solid grey;
 }
 */
+
 body{
 	/*font-family: 'Montserrat', sans-serif; */
 	text-align: center;
@@ -103,16 +104,6 @@ blockquote{
 
 
 /*START row-2 */
-#row-2{
-	/*border: 2px dashed red;*/
-
-	position: relative;
-	/*height: 330px;*/
-	/*line-height: 330px;	*/
-	/*font-size: 0;*/
-	/*line-height: normal;*/
-	/*text-align: center;*/
-}
 
 #row-2::before{
 	content: "";
@@ -130,16 +121,20 @@ blockquote{
 #row-2 .quote-container{
 	display: inline-block;
 	width: 33.3%;
-	
 	vertical-align: middle;
-
 }
 
 
 #row-2 .pic-div{
 	display: inline-block;
 	width: 33.3%;
-
 	vertical-align: middle;
 }
 
+
+/*START row-3 */
+
+#row-3 .quote-container{
+	display: inline-block;
+	width: 50%;
+}

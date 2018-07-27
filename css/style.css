@@ -9,7 +9,7 @@
 */
 
 body{
-	/*font-family: 'Montserrat', sans-serif; */
+	font-family: 'Montserrat', sans-serif; 
 	text-align: center;
 	line-height: 1.4;
 }
@@ -79,10 +79,21 @@ blockquote{
 	text-align: left;
 }
 
+/*#row-1 *{
+	border: 1px solid hotpink;	
+}*/
+
 #row-1 .quote-container{
+	display: flex;
 	flex: 2;
 	width: 900px;
 	min-width: 260px;
+	flex-direction: column;
+}
+
+#row-1 blockquote{
+	display: flex;
+	justify-content: left;
 }
 
 #row-1 .pic-div{
@@ -113,10 +124,6 @@ blockquote{
 	/*width:1%;*/
 }
 
-/*#row-2 *{
-	border: 1px solid hotpink;	
-}
-*/
 
 #row-2 .quote-container{
 	display: inline-block;
@@ -132,9 +139,13 @@ blockquote{
 }
 
 
-/*START row-3 */
 
+
+/*START row-3 */
 #row-3 .quote-container{
 	display: inline-block;
 	width: 50%;
+
+	vertical-align: middle;
 }
+
